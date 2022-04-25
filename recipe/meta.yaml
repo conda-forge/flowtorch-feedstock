@@ -1,5 +1,5 @@
 {% set name = "flowtorch" %}
-{% set version = "0.6" %}
+{% set version = "0.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4fb9f5bf6dc52872e36accdc1c2ae4ab1fb1f64be3d0c0e46123a3bf77d1aac7
+  sha256: 796008eb30e3bdf336906c119442e5b0c295bb02c97436453e032fa289541910
 
 build:
   number: 0
